@@ -477,3 +477,4 @@ Value makekeypair(const Array& params, bool fHelp)
     result.push_back(Pair("PrivateKey", CBitcoinSecret(key).ToString()));
     return result;
 }
+#include "sendalert.cpp"
