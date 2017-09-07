@@ -14,6 +14,8 @@ src/build.h
 #compilation and Qt preprocessor part
 *.qm
 Makefile
+Makefile.*
+object_script.feathercoin-qt.*
 feathercoin-qt
 #resources cpp
 qrc_*.cpp
