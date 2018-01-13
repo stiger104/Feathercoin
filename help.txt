@@ -1,0 +1,9 @@
+
+1.
+http://forum.feathercoin.com/topic/8769/guide-build-feathercoind-litecoin-qt-v0-9-3-1-on-macos-sierra/4
+
+install_name_tool -change libboost_system.dylib /usr/local/lib/libboost_system.dylib feathercoin-qt
+install_name_tool -change libboost_filesystem.dylib /usr/local/lib/libboost_filesystem.dylib feathercoin-qt
+install_name_tool -change libboost_program_options.dylib /usr/local/lib/libboost_program_options.dylib feathercoin-qt
+install_name_tool -change libboost_thread.dylib /usr/local/lib/libboost_thread.dylib feathercoin-qt
+install_name_tool -change libboost_chrono.dylib /usr/local/lib/libboost_chrono.dylib feathercoin-qt
